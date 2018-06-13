@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>  
+    <style>
+   .E{
+      margin-right: 50%;
+    }  
+    
+    .F{
+      margin-left: 90%;
+    }
+   
+  </style>
+</head>
+<body>
+<nav>
+         <div class="nav-wrapper black ">
+        <a href="/" class="brand-logo black E">Shoe Stop</a>
+   <a class='dropdown-trigger btn  F' href="/" data-target='dropdown1'>Drop Me!</a>
+    
+    
+
+
+  <!-- Dropdown Structure -->
+ <ul id='dropdown1' class='dropdown-content '>
+    <li><a href="/"><i class="material-icons">WHAT</i>Jordans</a></li>
+    <li><a href="/portfolio"><i class="material-icons">SHOE</i>Nikes</a></li>
+    <li><a href="/contact"><i class="material-icons">ARE</a></li>
+ <li><a href="/about"><i class="material-icons">YOU</i>Vans</a></li> 
+ </ul>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <div class="container">
+      <h1>Nikes</h1>
+  </div>
+  
+  <footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+         <script>
+          document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $('.dropdown-trigger').dropdown();
+        </script>
+        
+</body>
